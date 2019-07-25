@@ -787,73 +787,76 @@
 
 \newcommand{\imprimirfolhadeaprovacaodissertacao}{
 
-	\begin{center}
-		\bfseries
-		{\fontsize{14}{0} \selectfont \MakeUppercase{\imprimirautor}\par}
-		\vspace{4.0cm}\par
-		{\fontsize{16}{0} \selectfont \MakeUppercase{\imprimirtitulo}}
-	\end{center}
-	
-	\vspace{\onelineskip}
-	\vspace{\onelineskip}
-	\vspace{\onelineskip}
-	\vspace{\onelineskip}
-	
-	%Retira o espaço do paragrafo
-	\hspace*{-2cm}
-	%Adiciona o espaço da margem
-	\hspace*{8cm}	
-	\begin{minipage}{8cm}
-		\begin{SingleSpace}
-			\preambulodissertacaoresumido \\			
-		\end{SingleSpace}		
-	\end{minipage}
-
-	\vspace{\onelineskip}
-		
-	\noindent Aprovada em: \imprimirdataaprovacao
-	
-	\vspace{\onelineskip}
-	
-	\begin{center}
-		BANCA EXAMINADORA
-	\end{center}
-		\vspace{\onelineskip}
-
-	% Membro Um da banca é sempre o Orientador
-	\assinatura{\imprimirorientador - \imprimirorientadories \\ 
-	    Presidente
-	}
-	
-	% Membro Dois da banca pode ser o coorientador ou outro membro
-	\ifnotempty{\imprimircoorientador}{
-		\assinatura{\imprimircoorientador - \imprimircoorientadories \\
-		    Primeiro Membro
-		}
-	}
-	
-	% Membro Três da banca pode ser o coorientador ou outro membro
-	\ifnotempty{\imprimirmembrodabancadois}{
-		\assinatura{\imprimirmembrodabancadois - \imprimirmembrodabancadoisies \\
-		    Segundo Membro
-		}
-	}
-		
-	% Membro Três da banca pode ser o coorientador ou outro membro
-	\ifnotempty{\imprimirmembrodabancatres}{
-		\assinatura{\imprimirmembrodabancatres - \imprimirmembrodabancatresies \\
-		    Terceiro Membro
-		}
-	}
-	
-	% Membro Quatro da banca pode ser o coorientador ou outro membro
-	\ifnotempty{\imprimirmembrodabancaquatro}{
-		\assinatura{\imprimirmembrodabancaquatro -  \imprimirmembrodabancaquatroies \\
-		    Quarto Membro
-		}
-	}	
-	
-	\pagebreak
+	\ifthenelse{\boolean{ufctex@ehqualificacao}}{}{
+    	
+    	\begin{center}
+    		\bfseries
+    		{\fontsize{14}{0} \selectfont \MakeUppercase{\imprimirautor}\par}
+    		\vspace{4.0cm}\par
+    		{\fontsize{16}{0} \selectfont \MakeUppercase{\imprimirtitulo}}
+    	\end{center}
+    	
+    	\vspace{\onelineskip}
+    	\vspace{\onelineskip}
+    	\vspace{\onelineskip}
+    	\vspace{\onelineskip}
+    	
+    	%Retira o espaço do paragrafo
+    	\hspace*{-2cm}
+    	%Adiciona o espaço da margem
+    	\hspace*{8cm}	
+    	\begin{minipage}{8cm}
+    		\begin{SingleSpace}
+    			\preambulodissertacaoresumido \\			
+    		\end{SingleSpace}		
+    	\end{minipage}
+    
+    	\vspace{\onelineskip}
+    		
+    	\noindent Aprovada em: \imprimirdataaprovacao
+    	
+    	\vspace{\onelineskip}
+    	
+    	\begin{center}
+    		BANCA EXAMINADORA
+    	\end{center}
+    		\vspace{\onelineskip}
+    
+    	% Membro Um da banca é sempre o Orientador
+    	\assinatura{\imprimirorientador - \imprimirorientadories \\ 
+    	    Presidente
+    	}
+    	
+    	% Membro Dois da banca pode ser o coorientador ou outro membro
+    	\ifnotempty{\imprimircoorientador}{
+    		\assinatura{\imprimircoorientador - \imprimircoorientadories \\
+    		    Primeiro Membro
+    		}
+    	}
+    	
+    	% Membro Três da banca pode ser o coorientador ou outro membro
+    	\ifnotempty{\imprimirmembrodabancadois}{
+    		\assinatura{\imprimirmembrodabancadois - \imprimirmembrodabancadoisies \\
+    		    Segundo Membro
+    		}
+    	}
+    		
+    	% Membro Três da banca pode ser o coorientador ou outro membro
+    	\ifnotempty{\imprimirmembrodabancatres}{
+    		\assinatura{\imprimirmembrodabancatres - \imprimirmembrodabancatresies \\
+    		    Terceiro Membro
+    		}
+    	}
+    	
+    	% Membro Quatro da banca pode ser o coorientador ou outro membro
+    	\ifnotempty{\imprimirmembrodabancaquatro}{
+    		\assinatura{\imprimirmembrodabancaquatro -  \imprimirmembrodabancaquatroies \\
+    		    Quarto Membro
+    		}
+    	}	
+    	
+    	\pagebreak
+    }
 }
 
 \newcommand{\imprimirfolhadeaprovacaotcc}{
