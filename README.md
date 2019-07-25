@@ -1,5 +1,3 @@
-Para utilizar este template siga o tutorial disponível em: http://www.biblioteca.ufc.br/images/arquivos/instrucoes_modelos/tutorial_sharelatex.pdf
-
 # Útimas alterações
 03-07-2017              
     -Contagem de tabelas corrigida;
@@ -45,7 +43,7 @@ Para utilizar este template siga o tutorial disponível em: http://www.bibliotec
     
 # O que é?
 
-O **ufctex** é um projeto adaptado do [abnTeX2] da Associação Brasileira de normas técnicas [ueceTeX] da Universidade Estadual do Ceará. Essa versão, foi criada para o desenvolvimento de trabalhos acadêmicos de acordo com as normas da Universidade Federal do Ceará. Este template deve ser utilizado online de qualquer computador ou sistema operacional sem a necessidade de instalação e foi disponibilizada no ShareLaTex e no OverLeaf. Entretanto, é possível baixar o template e trabalhar offline também. 
+O **ppgcctex** é um projeto adaptado do [abnTeX2] da Associação Brasileira de normas técnicas baseado no [ueceTeX] da Universidade Estadual do Ceará. Essa versão, foi criada para o desenvolvimento de trabalhos acadêmicos de acordo com as normas do Programa de Pós-Graduação em Ciência da Computação da UFERSA/UERN. Este template deve ser utilizado online de qualquer computador ou sistema operacional sem a necessidade de instalação e foi disponibilizada no ShareLaTex e no OverLeaf. Entretanto, é possível baixar o template e trabalhar offline também. 
 
 Espera-se que o projeto seja um modelo de trabalho acadêmico que implemente todas as exigências das normas da ABNT sem a necessidade de se preocupar com o estilo ou formatação do documento. Entretanto, a geração de referências bibliográficas automática apresenta limitações quanto a formatação exigida pela biblioteca da UFC. E devem ser ajustadas manualmente estando sujeitas a revisão do bibliotecário.
 
@@ -366,6 +364,7 @@ Grupo de Otimização em Engenharia de Software
 
 [Por Onde Comecar]:https://code.google.com/p/abntex2/wiki/PorOndeComecar
 
+Para utilizar este template siga o tutorial disponível em: http://www.biblioteca.ufc.br/images/arquivos/instrucoes_modelos/tutorial_sharelatex.pdf
 Projeto original da UECE: [http://www.goes.uece.br]:http://www.goes.uece.br
 [http://www.goes.uece.br]
 [abnTeX2]:https://code.google.com/p/abntex2/
