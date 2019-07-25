@@ -352,14 +352,14 @@ Veja a seguir como inserir alguns elementos no seu texto.
 
 # Atenção
 
-O ufcteX é fornecido gratuitamente e sem garantias e pode ser redistribuído livremente para fins acadêmicos. 
+O ppgcc é fornecido gratuitamente e sem garantias e pode ser redistribuído livremente para fins acadêmicos. 
 
 # Agradecimentos
 
-![alt tag](http://www.goes.uece.br/style/images/logo_goes.png)
+Ao Grupo de Otimização em Engenharia de Software
+(http://www.goes.uece.br/style/images/logo_goes.png)
 
-Grupo de Otimização em Engenharia de Software
-
+Também agradeço ao grupo da UFC que o adptou.
 
 
 [Por Onde Comecar]:https://code.google.com/p/abntex2/wiki/PorOndeComecar
